@@ -1,0 +1,44 @@
+
+
+                                                   DATABASE AUTO USATE
+
+
+
+
+ID                        numero incrementale                                      PRIMARY KEY, UNIQUE, AI
+
+
+MARCHIO                   stringa                      varchar(20)                  NOT NULL
+
+
+MODELLO                   stringa                      varchar(30)                  NOT NULL
+
+
+CATEGORIA                 stringa                      varchar(20)                  NOT NULL
+
+
+ANNO                      data                         YEAR(YYYY)                   NOT NULL
+
+
+CARBURANTE                stringa                      varchar(20)                  NOT NULL
+
+
+CHILOMETRAGGIO            numero                       FLOAT(8,2)                   NOT NULL
+
+
+COLORE                    stringa                      varchar(20)                  NOT NULL
+
+
+NUMERO DI PORTE           numero                       TINYINT                      NOT NULL
+
+
+CAVALLI                   numero                       SMALLINT                     NOT NULL
+
+
+DISPONIBILITÀ             booleano                     TINYINT                      DEFAULT(0)
+
+
+PREZZO                    numero                       FLOAT(10,2)                  NOT NULL
+
+
+FOTO                      stringa                      varchar()                    DEFAULT(0)
